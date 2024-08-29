@@ -41,10 +41,10 @@ class Container(ScrollView):
     pass
 
 
-class Lab2App(App):
+class ContainersAndPositioningApp(App):
     def build(self) -> Container:
         return Container()
 
 
 if __name__ == "__main__":
-    Lab2App().run()
+    ContainersAndPositioningApp().run()
