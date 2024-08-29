@@ -41,10 +41,10 @@ class Container(BoxLayout):
     pass
 
 
-class Lab1App(App):
+class ClickerApp(App):
     def build(self) -> Container:
         return Container()
 
 
 if __name__ == '__main__':
-    Lab1App().run()
+    ClickerApp().run()
